@@ -1,0 +1,58 @@
+/* ===== RESET & BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ===== ROOT APP ===== */
+#root {
+  min-height: 100vh;
+}
+
+/* ===== LINKS ===== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== BUTTON RESET ===== */
+button {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+/* ===== INPUT RESET ===== */
+input {
+  font-family: inherit;
+  outline: none;
+}
+
+/* ===== SCROLLBAR (OPTIONAL NICE UI) ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* ===== SELECTION COLOR ===== */
+::selection {
+  background: #7b2ff7;
+  color: #fff;
+}

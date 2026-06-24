@@ -1,0 +1,171 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* ===== COMMON CONTAINERS ===== */
+.form-container,
+.account-container,
+.welcome-card {
+  width: 350px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+/* ===== CENTER FULL PAGE ===== */
+.welcome-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== HEADINGS ===== */
+h2, h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* ===== SUBTEXT ===== */
+.subtitle {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* ===== FORM ===== */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== LABEL ===== */
+label {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #6a0dad;
+  font-weight: 500;
+}
+
+/* ===== INPUT ===== */
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #7b2ff7;
+}
+
+/* ===== RADIO ===== */
+.radio-group {
+  margin-bottom: 15px;
+}
+
+.radio-group p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.radio-group label {
+  margin-right: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* ===== BUTTONS ===== */
+.primary-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #7b2ff7, #5f2c82);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  opacity: 0.9;
+}
+
+.secondary-btn {
+  width: 100%;
+  padding: 12px;
+  background: #e6dcff;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* ===== PROFILE PAGE ===== */
+.account-container h3 {
+  margin-bottom: 20px;
+}
+
+/* PROFILE CARD */
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* PROFILE IMAGE */
+.profile-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+/* PROFILE TEXT */
+.profile-details h4 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.profile-details p {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* ===== WELCOME PAGE ===== */
+.welcome-card {
+  text-align: center;
+}
+
+.welcome-card h2 {
+  margin-bottom: 10px;
+}
+
+.welcome-card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 400px) {
+  .form-container,
+  .account-container,
+  .welcome-card {
+    width: 90%;
+  }
+}
